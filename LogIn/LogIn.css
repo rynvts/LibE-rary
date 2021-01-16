@@ -1,14 +1,14 @@
 body {
     margin: 0;
     padding: 0;
-    background: url("https://www.sciencenewsforstudents.org/wp-content/uploads/2019/11/860_main_library_bacteria.png");
+    background: url("https://www.wallpapertip.com/wmimgs/42-425055_src-large-library-background-data-id-hd-wallpaper.jpg");
 }
 
 .login-form {
     width: 300px;
     padding: 20px;
     text-align: center;
-    background: url("https://www.gannett-cdn.com/-mm-/e1d78d18d18c0e71d5c7c4a0350b598687f50fe1/c=0-50-534-352/local/-/media/2015/04/08/Phoenix/Phoenix/635641084520049957-635639312779369759-library.jpg?width=534&height=302&fit=crop&format=pjpg&auto=webp");
+    background: url("https://www.gannett-cdn.com/-mm-/e1d78d18d18c0e71d5c7c4a0350b598687f50fe1/c=0-50-534-352/local/-/media/2015/04/08/Phoenix/Phoenix/635641084520049957-635639312779369759-library.jpg?width=534&height=302&fit=crop&format=pjpg&auto=webp" opacity: none);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -37,7 +37,7 @@ body {
 
 .txtb {
     margin: 20px 0;
-    background: rgba(255, 255, 255, .5);
+    background: rgba(156, 224, 221, 0.87);
     border-radius: 6px;
 }
 
