@@ -8,7 +8,7 @@ body {
     width: 300px;
     padding: 20px;
     text-align: center;
-    background: url("https://www.gannett-cdn.com/-mm-/e1d78d18d18c0e71d5c7c4a0350b598687f50fe1/c=0-50-534-352/local/-/media/2015/04/08/Phoenix/Phoenix/635641084520049957-635639312779369759-library.jpg?width=534&height=302&fit=crop&format=pjpg&auto=webp" opacity: none);
+    /* background: url("https://www.gannett-cdn.com/-mm-/e1d78d18d18c0e71d5c7c4a0350b598687f50fe1/c=0-50-534-352/local/-/media/2015/04/08/Phoenix/Phoenix/635641084520049957-635639312779369759-library.jpg?width=534&height=302&fit=crop&format=pjpg&auto=webp" opacity:none);  */
     position: absolute;
     top: 50%;
     left: 50%;
