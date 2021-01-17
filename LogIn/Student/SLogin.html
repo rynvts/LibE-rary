@@ -1,24 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> LibE-rary | Student Login  </title>
+    <title> Apna Library | Login Page </title>
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
-    <link rel="stylesheet" href="slogin.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
+
+
+<script>
+    var firebaseConfig = {
+        apiKey: "AIzaSyC4PcV4eSr_k2LdMttzlIPd6gCx0DDt-e4",
+        authDomain: "kldfdkdk.firebaseapp.com",
+        databaseURL: "https://kldfdkdk-default-rtdb.firebaseio.com",
+        projectId: "kldfdkdk",
+        storageBucket: "kldfdkdk.appspot.com",
+        messagingSenderId: "242849363318",
+        appId: "1:242849363318:web:56c2f5eebbfa561b11f657",
+        measurementId: "G-T6X95D8LVW"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+
+    function writedata() {
+
+        firebase.data.ref("user").set({
+            var gmail = document.getElementByid("email").value;
+            var username = document.getElementByid("user").value;
+            var password = document.getElementByid("password").value;
+            document.getElementByid("l") innerHTML = "sign up successfull";
+        });
+    }
+</script>
+
 <body>
     <div class="login-form">
         <form class action="login.html" method="post">
             <h1>Log In</h1>
-            <!-- <input type="text" placeholder="User Name" class="txtb"> -->
-            <input type="email" placeholder="Email" class="txtb">
-            <input type="password" placeholder="Password" class="txtb">
-            <input type="submit" value="Create Account" class="crt-btn">
+            <input type="text" placeholder="User Name" class="txtb" id="user">
+            <input type="email" placeholder="Email" class="txtb" id="email">
+            <input type="password" placeholder="Password" class="txtb" id="password">
+            <input type="submit" onclick="writedata();" value="Create Account" class="crt-btn" id="submit">
+            <p id="l"> </p>
             <a href="#">Already Have one ?</a>
         </form>
     </div>
-    
+
 </body>
+
 </html>
