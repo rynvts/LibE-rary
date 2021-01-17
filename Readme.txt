@@ -36,3 +36,11 @@ Admin can keep updating the system by providing the new books arrival in system 
 The system has books well organized and systematically arranged in different categories in the system so that user can easily search and find the book.
 
 
+The link of PPT and video demonstratuon is https://drive.google.com/drive/folders/1t_dw04519lsYhKtGaZi1W78XNZ2EzWVV?usp=sharing
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+For opening the web project,
+Open the "Landing.html" page and take steps of your choice... 
+
+
